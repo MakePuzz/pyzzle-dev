@@ -1,7 +1,7 @@
-services:
-  pyzzle-dev:
-    build: .
-    volumes:
-      - ./src:/home
-    working_dir: /home
-    command: tail -f /dev/null
+services: # Define services
+  pyzzle-dev: # Service name
+    build: . # Build image from Dockerfile in current directory
+    volumes: # Define volumes
+      - ./src:/root/src # Mount local src directory to container
+    working_dir: /root # Set working directory
+    command: tail -f /dev/null # Prevent container from exiting
