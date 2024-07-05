@@ -10,6 +10,7 @@ Welcome to `pyzzle-dev`, a development environment for `pyzzle` project.
 ## pyzzle setup
 1. `git clone https://github.com/MakePuzz/pyzzle.git volume/pyzzle` (need authentication)
 2. `pip install --no-build-isolation -e volume/pyzzle` (editable mode installation)
+3. `pytest volume/pyzzle` (run tests)
 
 ## Development
 Work directiory is `/root`, which is a home directory for root user.
