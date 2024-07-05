@@ -5,7 +5,7 @@
 2. `cd pyzzle-dev`
 3. `git clone https://github.com/MakePuzz/pyzzle.git volume/pyzzle` (need authentication)
 4. `docker-compose up -d`
-5. `docker-compose exec pyzzle-dev bash`
+5. `docker-compose exec pyzzle-dev zsh`
 
 ## Development
 Work directiory is `/root`, which is a home directory for root user.
