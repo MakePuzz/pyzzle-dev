@@ -5,4 +5,5 @@ services:
     build: .
     volumes:
       - ./src:/app
+    working_dir: /app
     command: tail -f /dev/null
