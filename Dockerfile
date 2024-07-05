@@ -10,3 +10,5 @@ RUN pip install puzzleimage \
 
 RUN sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" \
     && conda init zsh
+
+COPY fonts/* /usr/share/fonts/
