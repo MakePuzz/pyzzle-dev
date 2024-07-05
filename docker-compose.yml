@@ -1,0 +1,8 @@
+version: "3"
+
+services:
+  pyzzle-dev:
+    build: .
+    volumes:
+      - ./src:/app
+    command: tail -f /dev/null
