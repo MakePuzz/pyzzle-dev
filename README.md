@@ -33,6 +33,9 @@ Welcome to `pyzzle-dev`, a development environment for `pyzzle` project.
     pytest volume/pyzzle
     ```
 
+Note: steps 2 and 3 can be done by just executing `./install_pyzzle.zsh`
+
+
 ## Development
 Work directiory is `/root`, which is a home directory for root user.
 Shared volume is `/root/volume`, which is linked to the local `pyzzle-dev/volume` directory.

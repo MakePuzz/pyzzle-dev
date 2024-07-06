@@ -12,3 +12,5 @@ RUN sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/t
     && conda init zsh
 
 COPY fonts/* /usr/share/fonts/
+COPY install_pyzzle.zsh /root/
+RUN chmod +x /root/install_pyzzle.zsh
