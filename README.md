@@ -26,7 +26,7 @@ Welcome to `pyzzle-dev`, a development environment for `pyzzle` project.
     ```
 2. Install `pyzzle` with editable mode:
     ```zsh
-    `pip install --no-build-isolation -e volume/pyzzle`
+    pip install --no-build-isolation -e volume/pyzzle
     ```
 3. Run tests:
     ```zsh
