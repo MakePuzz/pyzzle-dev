@@ -42,13 +42,13 @@ Shared volume is `/root/volume`, which is linked to the local `pyzzle-dev/volume
 Any changes in the local `pyzzle-dev/volume` directory will be reflected in the container.
 
 ## Docker tips
-* Build docker container: `docker compose build`
+* Build docker container: `docker compose build`  
     Interpletion: Create a server machine.
-* Start docker container: `docker compose up -d`
+* Start docker container: `docker compose up -d`  
     Interpletion: Power on the server machine.
-* Stop docker container: `docker compose stop`
+* Stop docker container: `docker compose stop`  
     Interpletion: Power off the server machine.
-* Start shell in the container: `docker compose exec pyzzle-dev zsh`
+* Start shell in the container: `docker compose exec pyzzle-dev zsh`  
     Interpletion: Enter the server machine with SSH (actuary not using SSH though).
-* See running docker processes: `docker compose ps`
+* See running docker processes: `docker compose ps`  
     Interpletion: See the status of the server machine.
